@@ -21,7 +21,7 @@ const UnidadEducativaForm = () => {
     // Puedes enviar los datos a tu servidor o realizar acciones adicionales aquí
   };
 
-  return (
+  return (  
     <div>
       <h1>Registro de Unidad Educativa</h1>
       <form onSubmit={handleSubmit}>
