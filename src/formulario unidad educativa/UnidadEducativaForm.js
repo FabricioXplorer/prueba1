@@ -23,16 +23,20 @@ const UnidadEducativaForm = () => {
 
   return (
     <div>
-      <h1>Formulario Unidad Educativa</h1>
+      <h1>Registro de Unidad Educativa</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Tipo:
-          <input
-            type="text"
+          <select
             name="tipo"
             value={unidadEducativa.tipo}
             onChange={handleChange}
-          />
+          >
+            <option value="">Selecciona...</option>
+            <option value="fiscal">Fiscal</option>
+            <option value="particular">Particular</option>
+            <option value="convenio">convenio</option>
+          </select>
         </label>
         <br />
         <label>
@@ -47,6 +51,7 @@ const UnidadEducativaForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };

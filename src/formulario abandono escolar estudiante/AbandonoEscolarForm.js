@@ -23,8 +23,8 @@ const AbandonoEscolarForm = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario Abandono Escolar</h1>
+    <div >
+      <h1>Abandono Escolar de Alumno</h1>
       <form onSubmit={handleSubmit}>
         <label>
           ID del Estudiante:
@@ -57,6 +57,7 @@ const AbandonoEscolarForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };

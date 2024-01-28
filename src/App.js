@@ -13,28 +13,13 @@ import './styles.css';
 
 const App = () => {
   return (
-    <div className="App">
-       <div className="form-container">
-        <UnidadEducativaForm />
-      </div>
+    <div className="form-row">
       <div className="form-container">
       <EstudianteForm />
       </div>
       <div className="form-container">
       <DireccionActualForm />
       </div> 
-      <div className="form-container">
-      <AccesoServiciosBasicosForm />
-      </div>
-      <div className="form-container">
-      <AccesoInternetForm id="first-form" />
-      </div>
-      <div className="form-container">
-      <MedioTransporteForm />
-      </div>
-      <div className="form-container">
-      <AbandonoEscolarForm />
-      </div>
       <div className="form-container">
       <PadreForm />
       </div>
@@ -43,6 +28,21 @@ const App = () => {
       </div>
       <div className="form-container">
       <TutorForm />
+      </div>
+      <div className="form-container">
+      <AccesoServiciosBasicosForm />
+      </div>
+      <div className="form-container">
+      <MedioTransporteForm />
+      </div>
+      <div  className="form-container">
+      <AccesoInternetForm  />
+      </div>
+      <div className="form-container">
+      <AbandonoEscolarForm />
+      </div>
+      <div className="form-container">
+        <UnidadEducativaForm />
       </div>
     </div>
   );

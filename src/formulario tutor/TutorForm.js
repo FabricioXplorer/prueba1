@@ -28,8 +28,8 @@ const TutorForm = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario Datos del Tutor</h1>
+    <div >
+      <h1>Datos del Tutor</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Carnet de Identidad:
@@ -113,6 +113,7 @@ const TutorForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };

@@ -26,8 +26,8 @@ const AccesoServiciosBasicosForm = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario Acceso a Servicios Básicos</h1>
+    <div >
+      <h1>Acceso a Servicios Básicos</h1>
       <form onSubmit={handleSubmit}>
         <label>
           ID del Estudiante:
@@ -101,6 +101,7 @@ const AccesoServiciosBasicosForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };

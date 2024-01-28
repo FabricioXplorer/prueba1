@@ -30,8 +30,8 @@ const EstudianteForm = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario Estudiante</h1>
+    <div >
+      <h1>Registro del Estudiante</h1>
       <form onSubmit={handleSubmit}>
         <label>
           ID de la Unidad Educativa:
@@ -135,6 +135,7 @@ const EstudianteForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };

@@ -28,8 +28,8 @@ const MadreForm = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario Datos de la Madre</h1>
+    <div >
+      <h1>Datos de la Madre</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Carnet de Identidad:
@@ -113,6 +113,7 @@ const MadreForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };

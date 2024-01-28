@@ -29,8 +29,8 @@ const DireccionActualForm = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario Dirección Actual</h1>
+    <div >
+      <h1>Dirección Actual del Estudiante</h1>
       <form onSubmit={handleSubmit}>
         <label>
           ID del Estudiante:
@@ -124,6 +124,7 @@ const DireccionActualForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };

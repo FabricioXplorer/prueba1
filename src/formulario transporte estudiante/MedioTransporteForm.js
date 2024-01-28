@@ -23,8 +23,8 @@ const MedioTransporteForm = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario Medio de Transporte</h1>
+    <div >
+      <h1>Medio de Transporte del Estudiante</h1>
       <form onSubmit={handleSubmit}>
         <label>
           ID del Estudiante:
@@ -58,6 +58,7 @@ const MedioTransporteForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };

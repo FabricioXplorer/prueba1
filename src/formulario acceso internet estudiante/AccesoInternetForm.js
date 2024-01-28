@@ -23,8 +23,8 @@ const AccesoInternetForm = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario Acceso a Internet</h1>
+    <div >
+      <h1>Acceso a Internet</h1>
       <form onSubmit={handleSubmit}>
         <label>
           ID del Estudiante:
@@ -60,6 +60,7 @@ const AccesoInternetForm = () => {
         <br />
         <button type="submit">Guardar</button>
       </form>
+      <hr/> {/* Línea divisora */}
     </div>
   );
 };
